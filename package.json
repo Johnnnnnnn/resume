@@ -1,0 +1,22 @@
+{
+    "name": "resume",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev" : " webpack-dev-server -w --config \"src/webpack.config.js\" --content-base out/"
+    },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnnnnnnn/resume.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Johnnnnnnn/resume/issues"
+    },
+    "homepage": "https://github.com/Johnnnnnnn/resume#readme"
+}
