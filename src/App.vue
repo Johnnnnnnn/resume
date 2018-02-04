@@ -9,7 +9,7 @@
         <hr color="#666666"/>
         <div>123</div>
         <skills></skills>
-
+        <educations></educations>
     </div>
 </template>
 
@@ -20,9 +20,6 @@ import skills from './component/skills'
 import educations from './component/educations'
 export default {
     data : () => resume,
-    mounted (){
-        
-    },
     components: {
         arrow,
         educations,

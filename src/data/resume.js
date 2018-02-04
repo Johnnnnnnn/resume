@@ -10,46 +10,29 @@ export default {
         "day" : "1"
     },
     "gender" : "male",
-    "education" : [{
+    "educations" : [{
     	"school" : "",
     	"startTime" : "",
     	"endTime" : ""
     }],
-    "experience" : [{
+    "experiences" : [{
     	"company" : "",
     	"title" : "",
     	"startTime" : "",
     	"endTime" : "",
     	"description" : ""
     }],
-    "skills" : {
-        "skillName" : {
-            "name" : "English",
-            "description" : "",
-            "flags" : [],
-            "level" : "",
-            "score" : 50
-        },
-        "skillName1" : {
-            "name" : "English",
-            "description" : "",
-            "flags" : [],
-            "level" : "",
-            "score" : 30
-        },
-        "skillName2" : {
-            "name" : "English",
-            "description" : "",
-            "flags" : [],
-            "level" : "",
-            "score" : 70
-        },
-        "skillName3" : {
-            "name" : "English",
-            "description" : "",
-            "flags" : [],
-            "level" : "",
-            "score" : 90
-        }
-    }
+    "skills" : [{
+        "name" : "English",
+        "description" : "",
+        "flags" : [],
+        "level" : "",
+        "score" : 50
+    },{
+        "name" : "English",
+        "description" : "",
+        "flags" : [],
+        "level" : "",
+        "score" : 30
+    }]
 }
