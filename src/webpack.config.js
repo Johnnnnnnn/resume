@@ -17,18 +17,18 @@ module.exports = {
     //you can find introductions of most of loader on https://webpack.js.org/loaders/
     module: {
         rules: [
-        {
-            test: /\.css$/,
-            use: [
-            'vue-style-loader',
-            'css-loader'
-            ],
-        },
-        {
-            test: /\.vue$/,
-            loader: 'vue-loader',
-            options: {
-                loaders: {}
+            {
+                test: /\.css$/,
+                use: [
+                    'vue-style-loader',
+                    'css-loader'
+                ],
+            },
+            {
+                test: /\.vue$/,
+                loader: 'vue-loader',
+                options: {
+                    loaders: {}
                     // other vue-loader options go here
                 }
             },
@@ -44,14 +44,14 @@ module.exports = {
                     name: '[name].[ext]?[hash]'
                 }
             }
-            ]
+        ]
+    },
+    resolve: {
+        alias: {
+            'vue$': 'vue/dist/vue.esm.js'
         },
-        resolve: {
-            alias: {
-                'vue$': 'vue/dist/vue.esm.js'
-            },
-            extensions: ['*', '.js', '.vue', '.json']
-        },
+        extensions: ['*', '.js', '.vue', '.json']
+    },
 
     //It is for webpack-dev-server
     devServer: {  

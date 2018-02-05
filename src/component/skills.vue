@@ -1,8 +1,9 @@
 <template>
-    <div style="width: 50%; text-align:left">
+    <div style="text-align:left">
+        <h1>Skills</h1>
         <div v-for="(skill) in skills" style="margin:8px">
             <div>{{skill.name}}</div>
-            <div v-bind:style="{
+            <div :style="{
                     height: '20px', 
                     background:'steelBlue', 
                     width:skill.score + 'px' }"></div>

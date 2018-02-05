@@ -11,15 +11,37 @@ export default {
     },
     "gender" : "male",
     "educations" : [{
-    	"school" : "",
-    	"startTime" : "",
-    	"endTime" : ""
+    	"school" : "xxxxx",
+    	"startTime" : {
+            "year" : "2100",
+            "month" : "08"
+        },
+    	"endTime" : {
+            "year" : "2100",
+            "month" : "08"
+        }
+    },{
+        "school" : "xxxxx",
+        "startTime" : {
+            "year" : "2100",
+            "month" : "08"
+        },
+        "endTime" : {
+            "year" : "2100",
+            "month" : "08"
+        }
     }],
     "experiences" : [{
-    	"company" : "",
+    	"company" : "QQ",
     	"title" : "",
-    	"startTime" : "",
-    	"endTime" : "",
+    	"startTime" : {
+            "year" : "2100",
+            "month" : "08"
+        },
+    	"endTime" : {
+            "year" : "2100",
+            "month" : "08"
+        },
     	"description" : ""
     }],
     "skills" : [{
