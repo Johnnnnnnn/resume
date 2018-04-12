@@ -25,7 +25,7 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": " webpack-dev-server -w --config \"src/webpack.config.js\" --content-base out/"
+        "dev": " webpack-dev-server -w --config \"src/webpack.config.js\""
     },
     "repository": {
         "type": "git",

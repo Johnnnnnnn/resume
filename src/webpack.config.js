@@ -12,7 +12,7 @@ module.exports = {
     // It makes pages do not update automatically by src changed when running on webpack-dev-derver.
     // Because it detects changes of `localhost:$port$publicPath` but `localhost:$port`. 
     /* publicPat    h: '/out/',*/
-    filename: 'core.js'
+        filename: 'core.js'
     },
     //you can find introductions of most of loader on https://webpack.js.org/loaders/
     module: {
@@ -85,5 +85,5 @@ if (process.env.NODE_ENV === 'production') {
         new webpack.LoaderOptionsPlugin({
             minimize: true
         })
-        ])
+    ])
 }
